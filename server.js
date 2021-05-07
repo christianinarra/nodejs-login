@@ -7,7 +7,7 @@ const userRouter = require('./src/routes/User');
 const bookingRouter = require('./src/routes/Booking');
 const authRouter = require('./src/routes/Auth');
 
-mongoose.connect(MONGODB_URI, {
+mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
