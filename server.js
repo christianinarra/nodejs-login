@@ -18,7 +18,7 @@ db.on('error', (err) => {
 });
 
 db.on('open', () => {
-    console.log('Database connected');    
+    console.log('Database connected 1');    
 });
 
 // Initializations
